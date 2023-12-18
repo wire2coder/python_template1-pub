@@ -1,0 +1,12 @@
+python -m venv myenv
+
+# for windows
+myenv\Scripts\activate.bat
+
+# for linux and macOS
+source myenv/bin/activate
+
+pip install -r requirements.txt
+
+
+
